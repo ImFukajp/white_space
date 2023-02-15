@@ -1,0 +1,108 @@
+.bgcolor-blue{
+    background-color: #043873;
+    color: #FFFFFF;
+}
+
+.page1{
+    text-align: center;
+    background-image: url(./assets/img/toshiya/BACKGROUND.png);
+}
+
+.page1 h2{
+    font-size: 50px;
+padding-top: 140px;
+}
+
+.page1 p{
+    font-size: 12.5px;
+    margin-top: 24px;
+}
+
+.page1 button{
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+
+.button{
+    width: 120px;
+    height: 40px;
+    font-size: 10px;
+    background-color: #4F9CF9;
+    color: #FFFFFF;
+}
+
+.page2{
+    display: flex;
+   align-items: center;
+}
+
+.page2 h2{
+    font-size: 50px;
+}
+
+.page3 h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.page3 div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page4{
+    display: flex;
+    align-items: center;
+}
+
+.page5 h2{
+font-size: 50px;
+}
+
+.page5-1{
+    display: flex;
+}
+
+.card1{
+  margin: 0 16px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.card2{
+    background-color: #4F9CF9;
+    margin: 0 16px;
+}
+.card3{
+    background-color: #4F9CF9;
+    margin: 0 16px;
+}
+
+.page6{
+text-align: center;
+}
+
+.page6 h2{
+    font-size: 50px;
+}
+
+.page6 p{
+    font-size: 12.5px;
+}
+
+.page6 img{
+    margin: 0 20px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2 div{
+    display: flex;
+}
