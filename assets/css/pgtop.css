@@ -1,3 +1,79 @@
 body {
   background-color: #043873;
+}
+
+#header {
+  width: 1920px;
+  padding: 16px, 220px, 16px, 220px;
+}
+
+.list-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  margin-left: 60px;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-yellow,
+a .btn-login {
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #043873;
+  background-color: #FFE492;
+  border-radius: 6%;
+}
+.btn-yellow .button-yellow:hover,
+.btn-yellow a .btn-login:hover,
+a .btn-login .button-yellow:hover,
+a .btn-login a .btn-login:hover {
+  opacity: 0.7;
+}
+
+.btn-blue,
+a .btn-try {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #4F9CF9;
+  border-radius: 6%;
+  font-size: 12px;
+}
+.btn-blue .button-blue:hover,
+a .btn-try .button-blue:hover {
+  opacity: 0.7;
+}
+
+.lp-1 {
+  display: flex;
+}
+.lp-1 .title {
+  font-family: "Inter";
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.lp-1 .sub {
+  font-family: "Inter";
+  color: #FFFFFF;
+  font-size: 11px;
+}
+
+.lp-2 {
+  background-color: white;
+}
+.lp-2 .title {
+  color: #212529;
+  font-family: "Inter";
+}
+
+.title, sub {
+  position: relative;
 }/*# sourceMappingURL=pgtop.css.map */
