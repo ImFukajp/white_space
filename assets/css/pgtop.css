@@ -3,18 +3,25 @@ body {
 }
 
 #header {
-  width: 1920px;
-  padding: 16px, 220px, 16px, 220px;
+  width: 100%;
 }
 
 .list-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   text-align: center;
 }
+.list-box .logo,
+.list-box .btn-login,
+.list-box .btn-try {
+  margin: auto;
+}
+.list-box .btn {
+  margin: auto;
+}
 
-img {
+.logo {
   margin-left: 60px;
 }
 
@@ -31,10 +38,8 @@ a .btn-login {
   background-color: #FFE492;
   border-radius: 6%;
 }
-.btn-yellow .button-yellow:hover,
-.btn-yellow a .btn-login:hover,
-a .btn-login .button-yellow:hover,
-a .btn-login a .btn-login:hover {
+.btn-yellow .button-yellow:hover a .btn-login:hover,
+a .btn-login .button-yellow:hover a .btn-login:hover {
   opacity: 0.7;
 }
 
@@ -47,8 +52,8 @@ a .btn-try {
   border-radius: 6%;
   font-size: 12px;
 }
-.btn-blue .button-blue:hover,
-a .btn-try .button-blue:hover {
+.btn-blue a .button-blue:hover,
+a .btn-try a .button-blue:hover {
   opacity: 0.7;
 }
 
@@ -57,7 +62,7 @@ a .btn-try .button-blue:hover {
 }
 .lp-1 .title {
   font-family: "Inter";
-  font-size: 24px;
+  font-size: 40px;
   color: #FFFFFF;
 }
 .lp-1 .sub {
@@ -67,13 +72,38 @@ a .btn-try .button-blue:hover {
 }
 
 .lp-2 {
+  width: 100%;
   background-color: white;
+  position: absolute;
+}
+.lp-2 .main-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+  width: 526px;
+  height: 361px;
 }
 .lp-2 .title {
+  justify-content: center;
+  align-items: center;
   color: #212529;
-  font-family: "Inter";
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 80%;
 }
-
-.title, sub {
+.lp-2 img {
   position: relative;
+  top: 20px;
+}
+.lp-2 .btn-started,
+.lp-2 .btn-try {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #4F9CF9;
+  border-radius: 6%;
+  font-size: 12px;
 }/*# sourceMappingURL=pgtop.css.map */
