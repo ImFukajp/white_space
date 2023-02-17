@@ -1,3 +1,107 @@
 body {
   background-color: #043873;
+}
+
+#header {
+  width: 100%;
+}
+
+.lp-1 {
+  display: flex;
+}
+.lp-1 .main-box {
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+.lp-1 .logo,
+.lp-1 .btn-login,
+.lp-1 .btn-try {
+  margin: auto;
+}
+.lp-1 .logo {
+  margin-left: 60px;
+}
+.lp-1 .btn {
+  color: white;
+  text-decoration: none;
+  margin: auto;
+}
+
+.btn-yellow,
+a .btn-login {
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #043873;
+  background-color: #FFE492;
+  border-radius: 6%;
+}
+.btn-yellow .button-yellow:hover a .btn-login:hover,
+a .btn-login .button-yellow:hover a .btn-login:hover {
+  opacity: 0.7;
+}
+
+.btn-blue {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #4F9CF9;
+  border-radius: 6%;
+  font-size: 12px;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.lp-1 {
+  display: flex;
+}
+.lp-1 .title {
+  font-family: "Inter";
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.lp-1 .sub {
+  font-family: "Inter";
+  color: #FFFFFF;
+  font-size: 11px;
+}
+
+.lp-2 {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+}
+.lp-2 .main-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+  width: 526px;
+  height: 361px;
+}
+.lp-2 .title {
+  justify-content: center;
+  align-items: center;
+  color: #212529;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 80%;
+}
+.lp-2 img {
+  position: relative;
+  top: 20px;
+  width: 70%;
+}
+.lp-2 .btn-started,
+.lp-2 .btn-try {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #4F9CF9;
+  border-radius: 6%;
+  font-size: 12px;
 }/*# sourceMappingURL=pgtop.css.map */
