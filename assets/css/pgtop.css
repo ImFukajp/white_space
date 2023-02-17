@@ -6,28 +6,26 @@ body {
   width: 100%;
 }
 
-.main-box {
+.lp-1 {
   display: flex;
+}
+.lp-1 .main-box {
   justify-content: flex-end;
   align-items: center;
   text-align: center;
 }
-.main-box .logo,
-.main-box .btn-login,
-.main-box .btn-try {
+.lp-1 .logo,
+.lp-1 .btn-login,
+.lp-1 .btn-try {
   margin: auto;
 }
-.main-box .btn {
-  margin: auto;
-}
-
-.logo {
+.lp-1 .logo {
   margin-left: 60px;
 }
-
-.btn {
+.lp-1 .btn {
   color: white;
   text-decoration: none;
+  margin: auto;
 }
 
 .btn-yellow,
@@ -96,6 +94,7 @@ a:hover {
 .lp-2 img {
   position: relative;
   top: 20px;
+  width: 70%;
 }
 .lp-2 .btn-started,
 .lp-2 .btn-try {
