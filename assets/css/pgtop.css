@@ -6,26 +6,46 @@ body {
   width: 100%;
 }
 
-.lp-1 {
+.main-box {
+  padding: 16px 24px;
   display: flex;
-}
-.lp-1 .main-box {
   justify-content: flex-end;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  text-align: center;
 }
-.lp-1 .logo,
-.lp-1 .btn-login,
-.lp-1 .btn-try {
+.main-box i {
+  color: #FFFFFF;
+}
+.main-box ul, .main-box .list {
+  color: #FFFFFF;
+  list-style: none;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.main-box .logo,
+.main-box .btn-login,
+.main-box .btn-try {
+  margin: auto;
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 6px;
+}
+.main-box .btn {
   margin: auto;
 }
-.lp-1 .logo {
+
+.logo {
   margin-left: 60px;
 }
-.lp-1 .btn {
+
+.btn {
   color: white;
   text-decoration: none;
-  margin: auto;
 }
 
 .btn-yellow,
@@ -55,32 +75,37 @@ a:hover {
 }
 
 .lp-1 {
+  justify-content: center;
   display: flex;
+  align-items: center;
+  margin-bottom: 140px;
 }
-.lp-1 .title {
+.lp-1 .main-1 {
+  align-items: center;
   font-family: "Inter";
-  font-size: 40px;
+  font-size: 28px;
   color: #FFFFFF;
 }
 .lp-1 .sub {
+  margin-top: 24px;
   font-family: "Inter";
   color: #FFFFFF;
   font-size: 11px;
+}
+.lp-1 img {
+  width: 770px;
 }
 
 .lp-2 {
   width: 100%;
   background-color: white;
-  position: absolute;
 }
-.lp-2 .main-1 {
+.lp-2 .wapper, .lp-2 .wapper-2 {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 60px;
-  width: 526px;
-  height: 361px;
+  gap: 100px;
+}
+.lp-2 .wapper-2 {
+  flex-direction: row-reverse;
 }
 .lp-2 .title {
   justify-content: center;
@@ -89,19 +114,4 @@ a:hover {
   font-family: Inter;
   font-size: 40px;
   font-weight: bold;
-  margin: 80%;
-}
-.lp-2 img {
-  position: relative;
-  top: 20px;
-  width: 70%;
-}
-.lp-2 .btn-started,
-.lp-2 .btn-try {
-  padding: 10px 20px;
-  text-decoration: none;
-  color: white;
-  background-color: #4F9CF9;
-  border-radius: 6%;
-  font-size: 12px;
 }/*# sourceMappingURL=pgtop.css.map */
