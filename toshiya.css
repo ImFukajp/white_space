@@ -46,22 +46,23 @@
     align-items: center;
 }
 
-.page2-heder{
+.page2-heder {
     position: relative;
 }
 
-.page2-heder img{
+.page2-heder img {
     position: absolute;
-top: 45px;
-left: 150px;
-width: 200px;
-height: auto;
+    top: 45px;
+    left: 150px;
+    width: 200px;
+    height: auto;
 }
 
 .page2 h2 {
     font-size: 40px;
 }
-.page2>img{
+
+.page2>img {
     width: 400px;
 }
 
@@ -85,7 +86,7 @@ height: auto;
     background-image: url(./assets/img/toshiya/Element2.png);
 }
 
-.page4 img{
+.page4 img {
     width: 400px;
     margin-right: 20px;
 }
@@ -110,7 +111,8 @@ height: auto;
     margin: 0 16px;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
-.card1 *{
+
+.card1 * {
     margin: 10px;
 }
 
@@ -119,7 +121,8 @@ height: auto;
     margin: 0 16px;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
-.card2 *{
+
+.card2 * {
     margin: 10px;
 }
 
@@ -128,7 +131,8 @@ height: auto;
     margin: 0 16px;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
 }
-.card3 *{
+
+.card3 * {
     margin: 10px;
 }
 
@@ -166,7 +170,7 @@ height: auto;
     font-size: 10px;
 }
 
-.logo{
+.logo {
     display: flex;
 }
 
@@ -190,43 +194,44 @@ height: auto;
     width: 100px;
 }
 
-.box-4{
+.box-4 {
     background-color: #FFFFFF;
 }
 
-.box4-heder{
+.box4-heder {
     width: 77%;
     margin: 0 auto;
     text-align: center;
 }
 
-.card{
+.card {
     display: flex;
     width: 77%;
     margin: 0 auto;
 }
 
-.card-2{
+.card-2 {
     background-color: #043873;
     color: #FFFFFF;
     border-radius: 6px;
 }
 
-.lp-4{
+.lp-4 {
     background-color: #FFFFFF;
     width: 100vw;
 }
 
-.lp4-parent{
+.lp4-parent {
     display: flex;
 }
+
 /* レスポンシブ */
 @media screen and (max-width: 767px) {
-.button{
-    width: 200px;
-    height: 80px;
-    font-size: 20px;
-}
+    .button {
+        width: 200px;
+        height: 80px;
+        font-size: 20px;
+    }
 
     .width {
         width: 90%;
@@ -236,12 +241,12 @@ height: auto;
         background-image: none;
     }
 
-    .page1 h2{
-font-size: 60px;
+    .page1 h2 {
+        font-size: 60px;
     }
 
-    .page1 p{
-font-size: 20px;
+    .page1 p {
+        font-size: 20px;
     }
 
     .page2 {
@@ -249,7 +254,7 @@ font-size: 20px;
         text-align: center;
     }
 
-    .page2 p{
+    .page2 p {
         font-size: 20px;
     }
 
@@ -273,24 +278,25 @@ font-size: 20px;
         text-align: center;
     }
 
-    .page4 h2{
+    .page4 h2 {
         font-size: 40px;
     }
 
-    .page4 p{
+    .page4 p {
         font-size: 20px;
         margin: 30px auto;
     }
 
-    .page4 img{
+    .page4 img {
         margin: 30px;
     }
+
     .page5-1 {
         display: block;
     }
 
     .page6 p {
-      font-size: 20px;
+        font-size: 20px;
     }
 
     .footer1 {
@@ -303,18 +309,19 @@ font-size: 20px;
         margin-top: 50px;
     }
 
-    .footer1 p{
+    .footer1 p {
         font-size: 20px;
     }
 
-    .footer1>div{
+    .footer1>div {
         justify-content: center;
     }
 
-    .logo h2{
+    .logo h2 {
         font-size: 30px;
     }
-    .logo img{
+
+    .logo img {
         width: 200px;
         text-align: center;
     }
@@ -330,7 +337,7 @@ font-size: 20px;
         margin: 0 auto;
     }
 
-    .footer2-1 img{
+    .footer2-1 img {
         width: 30%;
         height: auto;
     }
