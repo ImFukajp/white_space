@@ -1,9 +1,16 @@
-main {
+body {
   background-color: #043873;
+  width: 77%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #header {
   width: 100%;
+  background-color: #043873;
+  width: 77%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .main-box {
@@ -85,6 +92,9 @@ a:hover {
   font-family: "Inter";
   font-size: 28px;
   color: #FFFFFF;
+  width: 77%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .lp-1 .sub {
   margin-top: 24px;
@@ -92,26 +102,35 @@ a:hover {
   color: #FFFFFF;
   font-size: 11px;
 }
-.lp-1 img {
-  width: 770px;
+.lp-1 .element-2 {
+  width: 600px;
+  height: 400px;
 }
 
 .lp-2 {
-  width: 100%;
+  width: 100vw;
   background-color: white;
+  width: 77%;
+  margin-right: auto;
+  margin-left: auto;
 }
-.lp-2 .wapper, .lp-2 .wapper-2 {
+
+.wapper, .wapper-2 {
   display: flex;
   gap: 100px;
 }
-.lp-2 .wapper-2 {
+.wapper .wapper-2, .wapper-2 .wapper-2 {
   flex-direction: row-reverse;
 }
-.lp-2 .title {
+.wapper .title, .wapper-2 .title {
   justify-content: center;
   align-items: center;
   color: #212529;
   font-family: Inter;
   font-size: 40px;
   font-weight: bold;
+}
+.wapper .lp2-2, .wapper-2 .lp2-2 {
+  width: 450px;
+  height: 300px;
 }/*# sourceMappingURL=pgtop.css.map */

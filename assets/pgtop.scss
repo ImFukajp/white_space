@@ -1,11 +1,19 @@
+@mixin width-setting {
+    width:77%;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
 body {
     background-color: #043873;
+    @include width-setting
 }
 
 
 #header {
     width: 100%;
-    // display: flex;
+    background-color: #043873;
+    @include width-setting
 }
 
 @mixin btn-blue {
@@ -24,6 +32,7 @@ body {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
+
 
     i {
         color: #FFFFFF;
@@ -101,6 +110,7 @@ a:hover {
         font-family: 'Inter';
         font-size: 28px;
         color: #FFFFFF;
+        @include width-setting
 
     }
 
@@ -111,8 +121,9 @@ a:hover {
         font-size: 11px;
     }
 
-    img {
-        width: 770px;
+    .element-2 {
+        width: 600px;
+        height: 400px;
     }
 
 }
@@ -120,14 +131,16 @@ a:hover {
 
 
 .lp-2 {
-    width: 100%;
+    width: 100vw;
     background-color: #ffff;
-
+    @include width-setting
+}
     .wapper,.wapper-2 {
         display: flex;
         gap: 100px;
-    }
+    
 .wapper-2{
+
     flex-direction: row-reverse;
 }
 
@@ -140,21 +153,8 @@ a:hover {
         font-weight: bold;
 
     }
-
-    //     img {
-    //         position: relative;
-    //         top: 20px;
-    //         width: 70%;
-    //     }
-
-    //     .btn-started,
-    //     .btn-try {
-    //         padding: 10px 20px;
-    //         text-decoration: none;
-    //         color: white;
-    //         background-color: #4F9CF9;
-    //         border-radius: 6%;
-    //         font-size: 12px;
-    //     }
-    // }
+  .lp2-2{
+    width: 450px;
+    height: 300px;
+  }
 }
