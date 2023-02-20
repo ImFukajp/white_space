@@ -115,18 +115,18 @@ a:hover {
 .lp-2 {
   width: 100vw;
   background-color: white;
+}
+.lp-2 .wapper {
   width: 77%;
   margin-right: auto;
   margin-left: auto;
-}
-
-.wapper {
   display: flex;
 }
-.wapper .wapper-2 {
-  flex-direction: row-reverse;
+.lp-2 .wapper-2 {
+  width: 100vw;
+  background-color: #FFFFFF;
 }
-.wapper .title {
+.lp-2 .title {
   justify-content: center;
   align-items: center;
   color: #212529;
@@ -134,7 +134,7 @@ a:hover {
   font-size: 40px;
   font-weight: bold;
 }
-.wapper .lp2-2 {
+.lp-2 .lp2-2 {
   width: 450px;
   height: 300px;
 }/*# sourceMappingURL=pgtop.css.map */

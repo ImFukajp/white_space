@@ -26,6 +26,7 @@ body {
 }
 
 .lp-1 {
+    // background-color: #043873;
     @include width-setting
 }
 
@@ -146,17 +147,16 @@ a:hover {
 .lp-2 {
     width: 100vw;
     background-color: #ffff;
-    @include width-setting
-}
 
 .wapper {
+    @include width-setting;
     display: flex;
-    // gap: 100px;
 }
 
 .wapper-2 {
+    width: 100vw;
+    background-color: #FFFFFF;
 
-    flex-direction: row-reverse;
 }
 
 .title {
